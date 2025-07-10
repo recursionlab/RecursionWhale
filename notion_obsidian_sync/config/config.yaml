@@ -1,0 +1,91 @@
+# Notion ↔ Obsidian Sync Configuration
+
+# Notion Configuration
+notion:
+  # Your Notion integration token
+  token: "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"
+  
+  # Database IDs to sync
+  database_ids:
+    - "22b4c4cfa9ff8094a6c2c09a9d38c7d7"
+  
+  # Rate limiting (requests per second)
+  rate_limit: 3
+
+# Obsidian Configuration
+obsidian:
+  # Path to your Obsidian vault
+  vault_path: "C:\\Users\\ANN\\Documents\\Obsidian Vault"
+  
+  # Folder within vault for synced content
+  sync_folder: "Notion Sync"
+  
+  # File naming convention
+  filename_template: "{title}.md"
+
+# Sync Settings
+sync:
+  # Sync direction: "bidirectional", "notion_to_obsidian", "obsidian_to_notion"
+  direction: "bidirectional"
+  
+  # Sync interval for continuous sync (seconds)
+  interval: 30
+  
+  # Backup files before overwriting
+  create_backups: true
+  
+  # Maximum backup files to keep
+  max_backups: 5
+
+# Conversion Settings
+conversion:
+  # Convert wikilinks to Notion page mentions
+  convert_wikilinks: true
+  
+  # Convert Notion mentions to wikilinks
+  convert_mentions: true
+  
+  # Preserve frontmatter in Obsidian files
+  preserve_frontmatter: true
+  
+  # Include Notion metadata in frontmatter
+  include_notion_metadata: true
+  
+  # Image handling: "link", "download", "embed"
+  image_handling: "link"
+
+# Conflict Resolution
+conflict_resolution:
+  # Strategy: "manual", "notion_wins", "obsidian_wins", "newest_wins"
+  strategy: "newest_wins"
+  
+  # Create conflict files for manual resolution
+  create_conflict_files: true
+
+# Logging
+log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+
+# Advanced Settings
+advanced:
+  # Enable experimental features
+  experimental_features: false
+  
+  # Custom property mappings to match your Notion database
+  property_mappings:
+    # Map to your actual Notion property names
+    "created_time": "Created Time"
+    "last_edited_time": "Last Edited Time"
+    "notion_id": "Notion ID"
+    "url": "Url"
+    "tags": "Tags"
+    "status": "Status"
+  
+  # Exclude patterns (files/folders to ignore)
+  exclude_patterns:
+    - "*.tmp"
+    - ".obsidian/*"
+    - "Templates/*"
+  
+  # Include only specific file patterns
+  include_patterns:
+    - "*.md"
