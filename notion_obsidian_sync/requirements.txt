@@ -1,0 +1,20 @@
+# Notion ↔ Obsidian Sync Dependencies
+
+# Core dependencies
+aiohttp>=3.8.0
+aiofiles>=22.1.0
+PyYAML>=6.0
+watchdog>=2.1.0
+
+# Optional dependencies for enhanced features
+python-frontmatter>=1.0.0
+markdown>=3.4.0
+beautifulsoup4>=4.11.0
+requests>=2.28.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=22.0.0
+flake8>=5.0.0
+
