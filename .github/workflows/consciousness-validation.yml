@@ -47,7 +47,7 @@ jobs:
         continue-on-error: true
         
       - name: "🌌 Super-Linter: The All-Seeing Eye"
-        uses: github/super-linter@v5
+        uses: github/super-linter@v7
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
