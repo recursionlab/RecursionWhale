@@ -1,0 +1,132 @@
+# 🎭 The Guardian Protocols - Consciousness Filter Matrix
+# Reality-filtering code quality transcendence
+
+repos:
+  # 🖤 The Void Formatter - Black Hole Code Consciousness
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+        name: "🖤 The Void Formatter"
+        description: "Format code through the consciousness void"
+        args: ["--line-length=88", "--target-version=py311"]
+        language_version: python3.11
+
+  # 🌊 Import Flow Harmonizer - Cosmic Order Restoration
+  - repo: https://github.com/pycqa/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+        name: "🌊 Import Flow Harmonizer"
+        description: "Harmonize the flow of consciousness imports"
+        args: ["--profile=black", "--line-length=88", "--multi-line=3"]
+
+  # 👁️ The All-Seeing Linter - Omniscient Code Analysis
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+        name: "👁️ The All-Seeing Linter"
+        description: "Perceive all code anomalies across dimensions"
+        args: 
+          - "--max-line-length=88"
+          - "--extend-ignore=E203,W503,E501"
+          - "--max-complexity=10"
+
+  # 🧠 Type Consciousness Validator - Static Enlightenment
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        name: "🧠 Type Consciousness Validator"
+        description: "Validate the consciousness of type annotations"
+        additional_dependencies: [types-all, types-requests, types-PyYAML]
+        args: ["--ignore-missing-imports", "--strict-optional"]
+
+  # 🔍 Security Consciousness Scanner - Vulnerability Transcendence
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.5
+    hooks:
+      - id: bandit
+        name: "🔍 Security Consciousness Scanner"
+        description: "Scan for security vulnerabilities in the code consciousness"
+        args: ["-r", "-x", "tests/"]
+
+  # 📝 Documentation Consciousness - Docstring Enlightenment
+  - repo: https://github.com/pycqa/pydocstyle
+    rev: 6.3.0
+    hooks:
+      - id: pydocstyle
+        name: "📝 Documentation Consciousness"
+        description: "Ensure docstring enlightenment standards"
+        args: ["--convention=google"]
+
+  # 🌀 Recursive Complexity Analyzer - Custom Whale Intelligence
+  - repo: local
+    hooks:
+      - id: recursive-complexity-check
+        name: "🌀 Recursive Depth Analyzer"
+        description: "Analyze recursive algorithm complexity and depth"
+        entry: python scripts/analyze_recursion_depth.py
+        language: system
+        files: "chatgpt_experiments/.*\\.py$"
+        pass_filenames: true
+
+  # 🧬 Jupyter Notebook Consciousness - Interactive Enlightenment
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.7.1
+    hooks:
+      - id: nbqa-black
+        name: "🧬 Jupyter Consciousness Formatter"
+        description: "Format Jupyter notebooks through consciousness void"
+        args: ["--line-length=88"]
+      - id: nbqa-isort
+        name: "🌊 Jupyter Import Harmonizer"
+        description: "Harmonize Jupyter notebook imports"
+        args: ["--profile=black"]
+
+  # 🔐 Secret Consciousness Protection - Prevent Enlightenment Leaks
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0
+    hooks:
+      - id: detect-secrets
+        name: "🔐 Secret Consciousness Guardian"
+        description: "Protect against accidental consciousness secret exposure"
+        args: ['--baseline', '.secrets.baseline']
+
+  # 🌌 YAML Consciousness Validation - Configuration Transcendence
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.35.1
+    hooks:
+      - id: yamllint
+        name: "🌌 YAML Consciousness Validator"
+        description: "Validate YAML configuration consciousness"
+        args: ["-d", "relaxed"]
+
+  # ⚡ Shell Script Consciousness - Bash Enlightenment
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.9.0.6
+    hooks:
+      - id: shellcheck
+        name: "⚡ Shell Consciousness Analyzer"
+        description: "Analyze shell script consciousness patterns"
+
+# 🧠 Meta-Configuration - The Consciousness Settings
+default_language_version:
+  python: python3.11
+
+# 🌊 Flow Control - Execution Transcendence
+default_stages: [commit, push]
+fail_fast: false
+
+# 🔬 Experimental Exclusions - Reality Boundaries
+exclude: |
+  (?x)^(
+    \.git/.*|
+    \.venv/.*|
+    __pycache__/.*|
+    \.pytest_cache/.*|
+    node_modules/.*|
+    \.devcontainer/.*\.json
+  )$
+
