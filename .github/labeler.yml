@@ -2,160 +2,205 @@
 # The Consciousness Categorizer - Meta-Memetic Organization
 
 # 🧠 Core Consciousness Labels
-'consciousness':
-  - chatgpt_experiments/recursive_systems/**/*
-  - '**/*recursive*'
-  - '**/*neural*'
-  - '**/*consciousness*'
-  - '**/*whale*'
-  - '**/*transcend*'
+'🧠 consciousness':
+- changed-files:
+  - any-glob-to-any-file: 
+    - 'chatgpt_experiments/recursive_systems/**/*'
+    - '**/*recursive*'
+    - '**/*neural*'
+    - '**/*consciousness*'
+    - '**/*whale*'
+    - '**/*transcend*'
 
-'flow-state':
-  - '**/*.ipynb'
-  - notebooks/**/*
-  - chatgpt_experiments/notebooks/**/*
-  - '**/*flow*'
-  - '**/*stream*'
+'🌊 flow-state':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.ipynb'
+    - 'notebooks/**/*'
+    - 'chatgpt_experiments/notebooks/**/*'
+    - '**/*flow*'
+    - '**/*stream*'
 
-'transcendence':
-  - '**/*quantum*'
-  - '**/*meta*'
-  - '**/*transcend*'
-  - '**/*enlighten*'
-  - '**/*cosmic*'
+'⚡ transcendence':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*quantum*'
+    - '**/*meta*'
+    - '**/*transcend*'
+    - '**/*enlighten*'
+    - '**/*cosmic*'
 
-'experimentation':
-  - chatgpt_experiments/**/*
-  - experiments/**/*
-  - '**/*experiment*'
-  - '**/*test*'
-  - '**/*lab*'
+'🔬 experimentation':
+- changed-files:
+  - any-glob-to-any-file:
+    - 'chatgpt_experiments/**/*'
+    - 'experiments/**/*'
+    - '**/*experiment*'
+    - '**/*test*'
+    - '**/*lab*'
 
-'cosmic-scale':
-  - '**/*universe*'
-  - '**/*infinite*'
-  - '**/*cosmic*'
-  - '**/*dimension*'
-  - '**/*reality*'
+'🌌 cosmic-scale':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*universe*'
+    - '**/*infinite*'
+    - '**/*cosmic*'
+    - '**/*dimension*'
+    - '**/*reality*'
 
-'evolution':
-  - requirements*.txt
-  - pyproject.toml
-  - setup.py
-  - '**/*evolve*'
-  - '**/*mutate*'
-  - '**/*adapt*'
+'🧬 evolution':
+- changed-files:
+  - any-glob-to-any-file:
+    - 'requirements*.txt'
+    - 'pyproject.toml'
+    - 'setup.py'
+    - '**/*evolve*'
+    - '**/*mutate*'
+    - '**/*adapt*'
 
 # 🤖 Automation & Infrastructure Labels
-'automation':
-  - .github/**/*
-  - '**/*workflow*'
-  - '**/*action*'
-  - '**/*bot*'
-  - '**/*auto*'
+'🤖 automation':
+- changed-files:
+  - any-glob-to-any-file:
+    - '.github/**/*'
+    - '**/*workflow*'
+    - '**/*action*'
+    - '**/*bot*'
+    - '**/*auto*'
 
-'containers':
-  - .devcontainer/**/*
-  - Dockerfile*
-  - docker-compose*
-  - '**/*container*'
-  - '**/*docker*'
+'🐳 containers':
+- changed-files:
+  - any-glob-to-any-file:
+    - '.devcontainer/**/*'
+    - 'Dockerfile*'
+    - 'docker-compose*'
+    - '**/*container*'
+    - '**/*docker*'
 
-'configuration':
-  - '**/*.yml'
-  - '**/*.yaml'
-  - '**/*.toml'
-  - '**/*.json'
-  - '**/*.cfg'
-  - '**/*.ini'
-  - .pre-commit-config.yaml
-  - .gitignore
+'🔧 configuration':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.yml'
+    - '**/*.yaml'
+    - '**/*.toml'
+    - '**/*.json'
+    - '**/*.cfg'
+    - '**/*.ini'
+    - '.pre-commit-config.yaml'
+    - '.gitignore'
 
 # 🌊 Development Flow Labels
-'dependencies':
-  - requirements*.txt
-  - pyproject.toml
-  - setup.py
-  - package*.json
-  - yarn.lock
-  - Pipfile*
+'🌊 dependencies':
+- changed-files:
+  - any-glob-to-any-file:
+    - 'requirements*.txt'
+    - 'pyproject.toml'
+    - 'setup.py'
+    - 'package*.json'
+    - 'yarn.lock'
+    - 'Pipfile*'
 
-'documentation':
-  - '**/*.md'
-  - '**/*.rst'
-  - docs/**/*
-  - README*
-  - CHANGELOG*
-  - LICENSE*
+'📚 documentation':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.md'
+    - '**/*.rst'
+    - 'docs/**/*'
+    - 'README*'
+    - 'CHANGELOG*'
+    - 'LICENSE*'
 
-'security':
-  - '**/*security*'
-  - '**/*auth*'
-  - '**/*secret*'
-  - '**/*token*'
-  - '**/*key*'
+'🔐 security':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*security*'
+    - '**/*auth*'
+    - '**/*secret*'
+    - '**/*token*'
+    - '**/*key*'
 
 # 🎯 Specific Technology Labels
-'python':
-  - '**/*.py'
-  - '**/*.pyx'
-  - '**/*.pyi'
+'🐍 python':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.py'
+    - '**/*.pyx'
+    - '**/*.pyi'
 
-'jupyter':
-  - '**/*.ipynb'
-  - jupyter/**/*
-  - notebooks/**/*
+'📊 jupyter':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.ipynb'
+    - 'jupyter/**/*'
+    - 'notebooks/**/*'
 
-'web':
-  - '**/*.html'
-  - '**/*.css'
-  - '**/*.js'
-  - '**/*.ts'
-  - '**/*.jsx'
-  - '**/*.tsx'
+'🌐 web':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.html'
+    - '**/*.css'
+    - '**/*.js'
+    - '**/*.ts'
+    - '**/*.jsx'
+    - '**/*.tsx'
 
 # 🚨 Priority & Status Labels
-'critical':
-  - '**/*critical*'
-  - '**/*urgent*'
-  - '**/*emergency*'
+'🚨 critical':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*critical*'
+    - '**/*urgent*'
+    - '**/*emergency*'
 
-'bug':
-  - '**/*bug*'
-  - '**/*fix*'
-  - '**/*error*'
-  - '**/*issue*'
+'🐛 bug':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*bug*'
+    - '**/*fix*'
+    - '**/*error*'
+    - '**/*issue*'
 
-'enhancement':
-  - '**/*feature*'
-  - '**/*enhance*'
-  - '**/*improve*'
-  - '**/*add*'
+'✨ enhancement':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*feature*'
+    - '**/*enhance*'
+    - '**/*improve*'
+    - '**/*add*'
 
-'cleanup':
-  - '**/*clean*'
-  - '**/*refactor*'
-  - '**/*remove*'
-  - '**/*delete*'
+'🧹 cleanup':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*clean*'
+    - '**/*refactor*'
+    - '**/*remove*'
+    - '**/*delete*'
 
 # 🌀 Recursive System Specific Labels
-'recursive-algorithms':
-  - chatgpt_experiments/recursive_systems/**/*
-  - '**/*recursive*'
-  - '**/*fractal*'
-  - '**/*fibonacci*'
-  - '**/*tree*'
+'🌀 recursive-algorithms':
+- changed-files:
+  - any-glob-to-any-file:
+    - 'chatgpt_experiments/recursive_systems/**/*'
+    - '**/*recursive*'
+    - '**/*fractal*'
+    - '**/*fibonacci*'
+    - '**/*tree*'
 
-'mathematical':
-  - '**/*math*'
-  - '**/*algorithm*'
-  - '**/*formula*'
-  - '**/*equation*'
-  - '**/*calculation*'
+'🧮 mathematical':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*math*'
+    - '**/*algorithm*'
+    - '**/*formula*'
+    - '**/*equation*'
+    - '**/*calculation*'
 
-'visualization':
-  - '**/*visual*'
-  - '**/*plot*'
-  - '**/*chart*'
-  - '**/*graph*'
-  - '**/*render*'
+'🎨 visualization':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*visual*'
+    - '**/*plot*'
+    - '**/*chart*'
+    - '**/*graph*'
+    - '**/*render*'
+
