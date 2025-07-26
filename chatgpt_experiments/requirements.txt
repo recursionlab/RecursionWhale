@@ -22,8 +22,8 @@ torch>=2.0.0               # 🔥 Deep learning transcendence
 transformers>=4.30.0       # 🧬 Language model evolution
 
 # Recursive Systems & Algorithms - The Core Whale Logic
-recursion-visualizer>=0.1.0  # 🌀 Custom recursive pattern analysis
-fractal-generator>=0.2.0     # 🌌 Infinite pattern manifestation
+# recursion-visualizer>=0.1.0  # 🌀 Custom recursive pattern analysis (placeholder - not yet published)
+# fractal-generator>=0.2.0     # 🌌 Infinite pattern manifestation (placeholder - not yet published)
 
 # Development & Quality - The Guardian Protocols
 black>=23.0.0              # 🖤 Code consciousness formatting
@@ -50,4 +50,3 @@ mkdocs-material>=9.0.0     # 🎨 Material design enlightenment
 # jax>=0.4.0                # ⚡ High-performance numerical computing
 # dask>=2023.0.0            # 🌊 Distributed consciousness processing
 # ray>=2.6.0                # 🌌 Scalable AI consciousness
-
