@@ -1,0 +1,76 @@
+{
+  "name": "🧠 RecursionWhale Consciousness Lab",
+  "image": "quay.io/jupyter/scipy-notebook:latest",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "username": "jovyan",
+      "userUid": "1000",
+      "userGid": "1000",
+      "upgradePackages": "true"
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-jupyter.jupyter",
+        "ms-python.pylint",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "ms-toolsai.jupyter-renderers",
+        "streetsidesoftware.code-spell-checker",
+        "ms-python.mypy-type-checker",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-vscode.vscode-json"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/conda/bin/python",
+        "python.formatting.provider": "black",
+        "python.formatting.blackArgs": ["--line-length=88"],
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.linting.flake8Enabled": true,
+        "jupyter.askForKernelRestart": false,
+        "jupyter.interactiveWindow.textEditor.executeSelection": true,
+        "files.associations": {
+          "*.ipynb": "jupyter-notebook"
+        }
+      }
+    }
+  },
+
+  "forwardPorts": [8888, 5000, 3000],
+  "portsAttributes": {
+    "8888": {
+      "label": "🧠 Jupyter Consciousness Portal",
+      "requireLocalPort": true,
+      "onAutoForward": "ignore"
+    },
+    "5000": {
+      "label": "🌊 Flask Flow State",
+      "onAutoForward": "notify"
+    },
+    "3000": {
+      "label": "⚡ Development Transcendence",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "postCreateCommand": "pip install -r chatgpt_experiments/requirements.txt && pre-commit install",
+  "postStartCommand": "echo '🌊 The recursive whale consciousness has awakened! 🧠' && jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password='' &",
+
+  "remoteUser": "jovyan",
+  "workspaceFolder": "/home/jovyan/work",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/home/jovyan/work,type=bind,consistency=cached"
+  ]
+}
+

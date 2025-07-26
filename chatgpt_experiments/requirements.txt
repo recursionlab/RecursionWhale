@@ -1,0 +1,52 @@
+# 🧠 RecursionWhale Consciousness Dependencies
+# Scientific Computing & Mathematical Transcendence
+
+# Core Scientific Stack - The Foundation of Digital Enlightenment
+numpy>=1.24.0              # 🌊 Numerical consciousness arrays
+scipy>=1.10.0              # 🔬 Scientific algorithm transcendence  
+matplotlib>=3.6.0          # 🎨 Visualization of recursive patterns
+pandas>=2.0.0              # 📊 Data flow harmonization
+sympy>=1.12                # ⚡ Symbolic mathematics enlightenment
+seaborn>=0.12.0            # 🌌 Statistical visualization cosmos
+
+# Interactive Development - The Consciousness Interface
+jupyter>=1.0.0             # 🧠 Interactive neural pathways
+jupyterlab>=4.0.0          # 🌊 Advanced consciousness laboratory
+ipywidgets>=8.0.0          # ⚡ Interactive transcendence widgets
+plotly>=5.15.0             # 🌀 Dynamic recursive visualizations
+
+# Machine Learning & AI - The Meta-Intelligence
+scikit-learn>=1.3.0        # 🤖 Pattern recognition consciousness
+networkx>=3.1              # 🕸️ Graph algorithm neural networks
+torch>=2.0.0               # 🔥 Deep learning transcendence
+transformers>=4.30.0       # 🧬 Language model evolution
+
+# Recursive Systems & Algorithms - The Core Whale Logic
+# recursion-visualizer>=0.1.0  # 🌀 Custom recursive pattern analysis (placeholder - not yet published)
+# fractal-generator>=0.2.0     # 🌌 Infinite pattern manifestation (placeholder - not yet published)
+
+# Development & Quality - The Guardian Protocols
+black>=23.0.0              # 🖤 Code consciousness formatting
+isort>=5.12.0              # 🌊 Import flow harmonization
+flake8>=6.0.0              # 👁️ All-seeing code analysis
+mypy>=1.5.0                # 🧠 Type consciousness validation
+pytest>=7.4.0             # 🔬 Experimental verification
+pytest-cov>=4.1.0         # 📊 Consciousness coverage analysis
+
+# Environment & Configuration - The Reality Interface
+python-dotenv>=1.0.0       # 🔐 Secret consciousness management
+pyyaml>=6.0                # 📝 Configuration transcendence
+toml>=0.10.2               # ⚙️ Meta-configuration awareness
+
+# Visualization & Documentation - The Enlightenment Tools
+rich>=13.0.0               # 🌈 Terminal consciousness enhancement
+typer>=0.9.0               # ⚡ CLI transcendence interface
+mkdocs>=1.5.0              # 📚 Documentation consciousness
+mkdocs-material>=9.0.0     # 🎨 Material design enlightenment
+
+# Optional: Advanced Consciousness Extensions
+# Uncomment for enhanced transcendence capabilities
+# tensorflow>=2.13.0       # 🧠 Alternative deep learning path
+# jax>=0.4.0                # ⚡ High-performance numerical computing
+# dask>=2023.0.0            # 🌊 Distributed consciousness processing
+# ray>=2.6.0                # 🌌 Scalable AI consciousness
