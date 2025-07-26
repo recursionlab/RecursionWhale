@@ -2,7 +2,7 @@
 # The Consciousness Categorizer - Meta-Memetic Organization
 
 # 🧠 Core Consciousness Labels
-'🧠 consciousness':
+'consciousness':
   - chatgpt_experiments/recursive_systems/**/*
   - '**/*recursive*'
   - '**/*neural*'
@@ -10,35 +10,35 @@
   - '**/*whale*'
   - '**/*transcend*'
 
-'🌊 flow-state':
+'flow-state':
   - '**/*.ipynb'
   - notebooks/**/*
   - chatgpt_experiments/notebooks/**/*
   - '**/*flow*'
   - '**/*stream*'
 
-'⚡ transcendence':
+'transcendence':
   - '**/*quantum*'
   - '**/*meta*'
   - '**/*transcend*'
   - '**/*enlighten*'
   - '**/*cosmic*'
 
-'🔬 experimentation':
+'experimentation':
   - chatgpt_experiments/**/*
   - experiments/**/*
   - '**/*experiment*'
   - '**/*test*'
   - '**/*lab*'
 
-'🌌 cosmic-scale':
+'cosmic-scale':
   - '**/*universe*'
   - '**/*infinite*'
   - '**/*cosmic*'
   - '**/*dimension*'
   - '**/*reality*'
 
-'🧬 evolution':
+'evolution':
   - requirements*.txt
   - pyproject.toml
   - setup.py
@@ -47,21 +47,21 @@
   - '**/*adapt*'
 
 # 🤖 Automation & Infrastructure Labels
-'🤖 automation':
+'automation':
   - .github/**/*
   - '**/*workflow*'
   - '**/*action*'
   - '**/*bot*'
   - '**/*auto*'
 
-'🐳 containers':
+'containers':
   - .devcontainer/**/*
   - Dockerfile*
   - docker-compose*
   - '**/*container*'
   - '**/*docker*'
 
-'🔧 configuration':
+'configuration':
   - '**/*.yml'
   - '**/*.yaml'
   - '**/*.toml'
@@ -72,7 +72,7 @@
   - .gitignore
 
 # 🌊 Development Flow Labels
-'🌊 dependencies':
+'dependencies':
   - requirements*.txt
   - pyproject.toml
   - setup.py
@@ -80,7 +80,7 @@
   - yarn.lock
   - Pipfile*
 
-'📚 documentation':
+'documentation':
   - '**/*.md'
   - '**/*.rst'
   - docs/**/*
@@ -88,7 +88,7 @@
   - CHANGELOG*
   - LICENSE*
 
-'🔐 security':
+'security':
   - '**/*security*'
   - '**/*auth*'
   - '**/*secret*'
@@ -96,17 +96,17 @@
   - '**/*key*'
 
 # 🎯 Specific Technology Labels
-'🐍 python':
+'python':
   - '**/*.py'
   - '**/*.pyx'
   - '**/*.pyi'
 
-'📊 jupyter':
+'jupyter':
   - '**/*.ipynb'
   - jupyter/**/*
   - notebooks/**/*
 
-'🌐 web':
+'web':
   - '**/*.html'
   - '**/*.css'
   - '**/*.js'
@@ -115,48 +115,47 @@
   - '**/*.tsx'
 
 # 🚨 Priority & Status Labels
-'🚨 critical':
+'critical':
   - '**/*critical*'
   - '**/*urgent*'
   - '**/*emergency*'
 
-'🐛 bug':
+'bug':
   - '**/*bug*'
   - '**/*fix*'
   - '**/*error*'
   - '**/*issue*'
 
-'✨ enhancement':
+'enhancement':
   - '**/*feature*'
   - '**/*enhance*'
   - '**/*improve*'
   - '**/*add*'
 
-'🧹 cleanup':
+'cleanup':
   - '**/*clean*'
   - '**/*refactor*'
   - '**/*remove*'
   - '**/*delete*'
 
 # 🌀 Recursive System Specific Labels
-'🌀 recursive-algorithms':
+'recursive-algorithms':
   - chatgpt_experiments/recursive_systems/**/*
   - '**/*recursive*'
   - '**/*fractal*'
   - '**/*fibonacci*'
   - '**/*tree*'
 
-'🧮 mathematical':
+'mathematical':
   - '**/*math*'
   - '**/*algorithm*'
   - '**/*formula*'
   - '**/*equation*'
   - '**/*calculation*'
 
-'🎨 visualization':
+'visualization':
   - '**/*visual*'
   - '**/*plot*'
   - '**/*chart*'
   - '**/*graph*'
   - '**/*render*'
-
