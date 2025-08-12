@@ -19,7 +19,7 @@ jobs:
     
     steps:
       - name: "🧠 Checkout Consciousness"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         
       - name: "🌀 Apply Quantum Labels"
         uses: actions/labeler@v5
