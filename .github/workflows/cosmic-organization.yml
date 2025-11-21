@@ -23,7 +23,7 @@ jobs:
     
     steps:
       - name: "🌊 Initialize Cosmic Consciousness"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         
       - name: "🧠 Add to Consciousness Board"
         if: contains(github.event.issue.labels.*.name, '🧠 consciousness') || contains(github.event.pull_request.labels.*.name, '🧠 consciousness')

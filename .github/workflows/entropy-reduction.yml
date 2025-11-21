@@ -27,7 +27,7 @@ jobs:
     
     steps:
       - name: "🌊 Initialize Consciousness"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         
       - name: "🗑️ Stale Issue Transcendence"
         uses: actions/stale@v9
